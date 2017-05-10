@@ -1,5 +1,8 @@
 ---
 published: false
+category: git
+layout: post
+title: Git Cheatsheet
 ---
 This cheat sheet contains common git commands in use with some additional useful commands.
 
