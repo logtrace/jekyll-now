@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: git
 layout: post
 title: Git Cheatsheet
