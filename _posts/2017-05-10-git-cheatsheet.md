@@ -1,10 +1,13 @@
 ---
 published: true
-category: git
+category: 'git, cheatsheet'
 layout: post
 title: Git Cheatsheet
+description: >-
+  This cheatsheet contains common git commands in use with some additional
+  useful commands
 ---
-This cheat sheet contains common git commands in use with some additional useful commands.
+This cheatsheet contains common git commands in use with some additional useful commands.
 
 > *[] - indicates a parameter which should be replaced at runtime by user*
 
