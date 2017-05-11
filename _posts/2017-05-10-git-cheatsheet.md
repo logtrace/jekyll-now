@@ -9,6 +9,11 @@ This cheat sheet contains common git commands in use with some additional useful
 > *[] - indicates a parameter which should be replaced at runtime by user*
 
 ### Common commands
+Init a local repo as a git repo:
+```bash
+git init
+```
+
 Get a repo for the first time:
 ```bash
 git clone [url]
@@ -52,31 +57,38 @@ Create a new branch:
 ```bash
 git checkout -b [your_branch_name]
 ```
+
 Push the new branch to the remote repo:
 ```bash
 git push origin [your_branch_name]
 ```
+
 Set tracking information for the new branch:
 ```bash
 git branch --set-upstream-to=origin/[your_branch_name] [your_branch_name]
 ```
+
 Push the new branch to the remote repo with tracking:
 ```bash
 git push -u origin [your_branch_name]
 ```
+
 Switch to another branch:
 ```bash
 git checkout [your_branch_name]
 ```
+
 List branches:
 ```bash
 git branch -l //List local branches
 git branch -a //List all branches
 ```
+
 Delete a local branch:
 ```bash
 git branch -d [your_branch_name]
 ```
+
 Diff two branches:
 ```bash
 git diff --name-status [branch_1]..[branch_2]
