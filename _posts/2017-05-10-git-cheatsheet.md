@@ -57,6 +57,8 @@ git mergetool --tool=kdiff3 //Launch preferred tool
 
 ### Work with branches
 
+
+
 Create a new branch:
 ```bash
 git checkout -b [your_branch_name]
