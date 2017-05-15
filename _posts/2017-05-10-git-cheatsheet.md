@@ -12,6 +12,9 @@ This cheatsheet contains common git commands in use with some additional useful 
 > *[] - indicates a parameter which should be replaced at runtime by user*
 
 ## Common commands
+
+
+
 Init a local repo as a git repo:
 ```bash
 git init
@@ -55,6 +58,8 @@ git mergetool --tool=kdiff3 //Launch preferred tool
 ```
 
 ## Work with branches
+
+
 
 Create a new branch:
 ```bash
