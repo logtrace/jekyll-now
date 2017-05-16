@@ -109,13 +109,13 @@ git branch -a
 
 Merge two branches:
 
-> *You must commit everything in your branch and switch to the base branch you want to merge your changes in to, before you perform the merge*
+> *You must commit everything in your branch and switch to the base branch(ex: master) you want to merge your changes in to, before you perform the merge*
 
 ```bash
 git merge [your_branch_name]
 ```
 
-Override a branch with remote content:
+Override a local branch with remote branch content:
 ```bash
 git reset --hard origin/[your_branch_name]
 ```
